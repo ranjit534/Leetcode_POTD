@@ -12,6 +12,6 @@ public:
             else
                 low = mid + 1;
         }
-        return low + k;
+        return low + k; //(low + k) will give the missing number.
     }
 };
